@@ -8,7 +8,7 @@ import {
   NumberDecrementStepper,
 } from "@chakra-ui/react";
 
-export default function Level() {
+export default function CharacterLevel() {
   return (
     <FormControl id="level">
       <FormLabel>キャラのレベルを入力: 1-150</FormLabel>

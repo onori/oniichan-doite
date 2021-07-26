@@ -1,16 +1,7 @@
-import {
-  HStack,
-  VStack,
-  Box,
-  Flex,
-  Heading,
-  Container,
-  Text,
-  Divider,
-} from "@chakra-ui/react";
+import { Box, Flex, Heading, Container, Text, Divider } from "@chakra-ui/react";
 import Head from "next/head";
 import Layout from "../components/layout";
-import Level from "../components/Level";
+import CharacterLevel from "../components/characterLevel";
 import Item from "../components/item";
 import MonsterTabs from "../components/monsterTabs";
 import ItemNumber from "../components/itemNumber";
@@ -33,7 +24,7 @@ export default function Home() {
             欲しい素材やカードを、どのくらいの敵を倒したら手に入るのか、大まかな期待値とともに表示します。
           </Text>
           <Box mt="4">
-            <Level />
+            <CharacterLevel />
           </Box>
           <Divider />
           <Box mt="4">
